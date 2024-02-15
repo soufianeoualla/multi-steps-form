@@ -14,7 +14,7 @@ function App() {
     <>
       <div className=' flex rounded-xl bg-white p-4   h-[600px] w-[1000px] lg:w-[800px] lg:h-[550px] md:w-[700px] md:h-[500px] sm:h-screen sm:w-screen sm:p-0 sm:grid sm:relative sm:bg-magnolia '>
         <SideBar />
-        <div className=' p-6 w-[56%] ml-8 md:p-4 md:text-sm sm:bg-white rounded-lg sm:w-[90%] relative sm:absolute sm:top-[15%] left-[-3%]  s '>
+        <div className=' p-6 w-[56%] ml-20 md:p-4 md:text-sm sm:bg-white rounded-lg sm:w-[90%] relative sm:absolute sm:top-[15%] left-[-3%]  s '>
           {step === 1 && <PersonalInfo />}
           {step === 2 && <SelectPlan />}
           {step === 3 && <AddOns />}
