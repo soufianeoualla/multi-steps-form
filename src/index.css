@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: "Ubuntu", sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(217, 100%, 97%);
+}
+.side-bar{
+    background: url('./Components/assets/bg-sidebar-desktop.svg') no-repeat center center/cover ;
+   
+}
+
+@media screen and (max-width:719px) {
+    .side-bar{
+        background: url('./Components/assets/bg-sidebar-mobile.svg') no-repeat center center/cover  ;
+       
+    }
+    
+    
+  
+    
+}
